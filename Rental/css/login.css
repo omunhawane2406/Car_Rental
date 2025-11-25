@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.login-page{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  background-color: hsl(204, 80%, 63%);
+}
+.window{
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-content: center;
+  /* margin-right: 100px; */
+  /* border: 1px solid black; */
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 1) ;
+
+}
+
+.text{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  color: black;
+  margin-bottom: 3rem;
+
+}
+.login-page input{
+  text-align: center;
+  margin-left: 5rem;
+  /* margin-top: 2rem; */
+  margin-bottom: 1.5rem;
+  padding: 0.7rem 1.5rem;
+  color: black;
+  outline: none;
+  width: 60%;
+  border: none;
+  background: gainsboro;
+  border-radius: 10px;
+}
+.login-page input:hover{
+  box-shadow: 1px 1px 3px grey;
+}
+.login-page input:focus{
+  border: 1px solid gray;
+}
+/* .user{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  color: #69275c;
+}
+.pass{
+display: flex;
+justify-content: center;
+margin-bottom: 20px;
+color: #69275c;
+} */
+.button{
+  padding: 0.7rem 1.5rem;
+  width: 60%;
+  font-size:medium;
+  margin-top: 20px;
+  cursor: pointer;
+  margin-bottom: 25px;
+  background-color: hsl(204, 80%, 63%);
+  color: black;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.fr{
+  margin-top: 1.5rem;
+  text-align: center;
+  color: hsl(204, 80%, 63%);
+}
+.Cr{
+  text-align: center;
+  margin-top: 5px;
+  color: hsl(204, 80%, 63%);
+
+}
+.user label{
+  padding: 5px;
+}
+.pass label{
+  padding: 5px;
+}
+/* :focus.button{ */
+
+/* } */
+:hover.button{
+  box-shadow: 1px 1px 4px black;
+}
+.overlay{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.363);
+  position: fixed;
+  top: 0; 
+  display: flex;
+  justify-content: inherit;
+  align-items: center;
+}
+.d-none{
+  display: none;
+}
+.form{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 600px;
+  width: 450px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 3px 3px 6px black;
+}
+.head{
+ margin-top: 1.5rem;
+ font-size:x-large;
+ margin-bottom: 2rem;
+}
+.data{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.data input{
+  text-align: center;
+  margin-left: 5.5rem;
+  padding: 0.7rem 1.5rem;
+  color: black;
+  outline: none;
+  width: 60%;
+  border: none;
+  background: gainsboro;
+  margin-top: 0.5rem;
+  border-radius: 10px;
+}
+.popup input:focus{
+  border: 1px solid black;
+}
+.popup input:hover{
+  box-shadow: 1px 1px 3px black;
+}
+/* .name{
+  padding: 10px 40px;
+  color: black;
+  outline: none;
+  width: 100%;
+  border: none;
+  background: linen;
+  margin-top: 5px;
+  border-radius: 35px;
+}
+.Email{
+  padding: 10px 40px;
+  outline: none;
+  width: 100%;
+  border: none;
+  background: linen;
+  margin-top: 5px;
+  border-radius: 35px;
+}
+.mobile{
+  padding: 10px 40px;
+  outline: none;
+  width: 100%;
+  border: none;
+  background: linen;
+  margin-top: 5px;
+  border-radius: 35px;
+}
+.security1{
+  padding: 10px 40px;
+  outline: none;
+  width: 100%;
+  border: none;
+  background: linen;
+  margin-top: 5px;
+  border-radius: 35px;
+}
+.security2{
+  padding: 10px 40px;
+  outline: none;
+  width: 100%;
+  border: none;
+  background: linen;
+  margin-top: 5px;
+  border-radius: 35px;
+} */
+.save{
+  margin-top: 10px;
+  padding: 0.7rem 2rem;
+  border-radius: 10px;
+  background-color: hsl(204, 80%, 63%);
+  font-size: 15px;
+  border: none;
+}
+.can{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 0.7rem 1.7rem;
+  border-radius: 10px;
+  background-color: hsl(204, 80%, 63%);
+  font-size: 15px;
+  border: none;
+}
+:hover.can{
+  box-shadow: 1px 1px 3px lightcoral;
+  /* background-color: lightcoral; */
+  cursor: pointer;
+}
+:hover.save{
+  box-shadow: 1px 1px 3px lightgreen;
+  /* background-color: lightgreen; */
+  cursor: pointer;
+}

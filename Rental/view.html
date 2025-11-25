@@ -1,0 +1,1414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ridex - View More</title>
+    <link rel="icon" href="/img/faviconmain.ico" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/faviconmain.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./css/view.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Open+Sans&display=swap"
+    rel="stylesheet">
+</head>
+<body>
+    <section class="section featured-car" id="featured-car">
+        <div class="container">
+    
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Featured cars</h2>
+    
+            <!-- <a href="#" class="featured-car-link">
+              <span>View more</span>
+    
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </a> -->
+          </div>
+    
+          <ul class="featured-car-list">
+    
+            <li>
+              <div class="featured-car-card">
+    
+                <figure class="card-banner">
+                  <img src="./images/car-1.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                    class="w-100">
+                </figure>
+    
+                <div class="card-content">
+    
+                  <div class="card-title-wrapper">
+                    <h3 class="h3 card-title">
+                      <a href="#">Toyota Fortuner</a>
+                    </h3>
+    
+                    <data class="year" value="2021">2019</data>
+                  </div>
+    
+                  <ul class="card-list">
+    
+                    <li class="card-list-item">
+                      <ion-icon name="people-outline"></ion-icon>
+    
+                      <span class="card-item-text">7 People</span>
+                    </li>
+    
+                    <li class="card-list-item">
+                      <ion-icon name="flash-outline"></ion-icon>
+    
+                      <span class="card-item-text">Hybrid</span>
+                    </li>
+    
+                    <li class="card-list-item">
+                      <ion-icon name="speedometer-outline"></ion-icon>
+    
+                      <span class="card-item-text">6.1km / 1-litre</span>
+                    </li>
+    
+                    <li class="card-list-item">
+                      <ion-icon name="hardware-chip-outline"></ion-icon>
+    
+                      <span class="card-item-text">Automatic</span>
+                    </li>
+    
+                  </ul>
+    
+                  <div class="card-price-wrapper">
+    
+                    <p class="card-price">
+                      <strong>Rs.5000</strong> / day
+                    </p>
+    
+                    <button class="btn fav-btn" aria-label="Add to favourite list">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+    
+                    <button class="btn" onclick="location.href='./form.html'">Rent now</button>
+    
+                  </div>
+    
+                </div>
+    
+              </div>
+            </li>
+    
+            <li>
+              <div class="featured-car-card">
+    
+                <figure class="card-banner">
+                  <img src="./images/car-2.jpg" alt="BMW 3 Series 2019" loading="lazy" width="440" height="300"
+                    class="w-100">
+                </figure>
+    
+                <div class="card-content">
+    
+                  <div class="card-title-wrapper">
+                    <h3 class="h3 card-title">
+                      <a href="#">Hyundai Verna</a>
+                    </h3>
+    
+                    <data class="year" value="2019">2023</data>
+                  </div>
+    
+                  <ul class="card-list">
+    
+                    <li class="card-list-item">
+                      <ion-icon name="people-outline"></ion-icon>
+    
+                      <span class="card-item-text">4 People</span>
+                    </li>
+    
+                    <li class="card-list-item">
+                      <ion-icon name="flash-outline"></ion-icon>
+    
+                      <span class="card-item-text">Gasoline</span>
+                    </li>
+    
+                    <li class="card-list-item">
+                      <ion-icon name="speedometer-outline"></ion-icon>
+    
+                      <span class="card-item-text">8.2km / 1-litre</span>
+                    </li>
+    
+                    <li class="card-list-item">
+                      <ion-icon name="hardware-chip-outline"></ion-icon>
+    
+                      <span class="card-item-text">Automatic</span>
+                    </li>
+    
+                  </ul>
+    
+                  <div class="card-price-wrapper">
+    
+                    <p class="card-price">
+                      <strong>Rs.3500</strong> / day
+                    </p>
+    
+                    <button class="btn fav-btn" aria-label="Add to favourite list">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+    
+                    <button class="btn" onclick="location.href='./form.html'">Rent now</button>
+    
+                  </div>
+    
+                </div>
+    
+              </div>
+            </li>
+    
+            <li>
+              <div class="featured-car-card">
+    
+                <figure class="card-banner">
+                  <img src="./images/car-3.jpg" alt="Volkswagen T-Cross 2020" loading="lazy" width="440"
+                    height="300" class="w-100">
+                </figure>
+    
+                <div class="card-content">
+    
+                  <div class="card-title-wrapper">
+                    <h3 class="h3 card-title">
+                      <a href="#">Audi A4</a>
+                    </h3>
+    
+                    <data class="year" value="2020">2020</data>
+                  </div>
+    
+                  <ul class="card-list">
+    
+                    <li class="card-list-item">
+                      <ion-icon name="people-outline"></ion-icon>
+    
+                      <span class="card-item-text">4 People</span>
+                    </li>
+    
+                    <li class="card-list-item">
+                      <ion-icon name="flash-outline"></ion-icon>
+    
+                      <span class="card-item-text">Gasoline</span>
+                    </li>
+    
+                    <li class="card-list-item">
+                      <ion-icon name="speedometer-outline"></ion-icon>
+    
+                      <span class="card-item-text">5.3km / 1-litre</span>
+                    </li>
+    
+                    <li class="card-list-item">
+                      <ion-icon name="hardware-chip-outline"></ion-icon>
+    
+                      <span class="card-item-text">Automatic</span>
+                    </li>
+    
+                  </ul>
+    
+                  <div class="card-price-wrapper">
+    
+                    <p class="card-price">
+                      <strong>Rs.7500</strong> / day
+                    </p>
+    
+                    <button class="btn fav-btn" aria-label="Add to favourite list">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+    
+                    <button class="btn" onclick="location.href='./form.html'">Rent now</button>
+    
+                  </div>
+    
+                </div>
+    
+              </div>
+            </li>
+    
+            <li>
+              <div class="featured-car-card">
+    
+                <figure class="card-banner">
+                  <img src="./images/car-4.webp" alt="Cadillac Escalade 2020" loading="lazy" width="440"
+                    height="300" class="w-100">
+                </figure>
+    
+                <div class="card-content">
+    
+                  <div class="card-title-wrapper">
+                    <h3 class="h3 card-title">
+                      <a href="#">Mercedes Benz</a>
+                    </h3>
+    
+                    <data class="year" value="2020">2020</data>
+                  </div>
+    
+                  <ul class="card-list">
+    
+                    <li class="card-list-item">
+                      <ion-icon name="people-outline"></ion-icon>
+    
+                      <span class="card-item-text">4 People</span>
+                    </li>
+    
+                    <li class="card-list-item">
+                      <ion-icon name="flash-outline"></ion-icon>
+    
+                      <span class="card-item-text">Gasoline</span>
+                    </li>
+    
+                    <li class="card-list-item">
+                      <ion-icon name="speedometer-outline"></ion-icon>
+    
+                      <span class="card-item-text">7.7km / 1-litre</span>
+                    </li>
+    
+                    <li class="card-list-item">
+                      <ion-icon name="hardware-chip-outline"></ion-icon>
+    
+                      <span class="card-item-text">Automatic</span>
+                    </li>
+    
+                  </ul>
+    
+                  <div class="card-price-wrapper">
+    
+                    <p class="card-price">
+                      <strong>Rs.9900</strong> / day
+                    </p>
+    
+                    <button class="btn fav-btn" aria-label="Add to favourite list">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+    
+                    <button class="btn" onclick="location.href='./form.html'">Rent now</button>
+    
+                  </div>
+    
+                </div>
+    
+              </div>
+            </li>
+    
+            <li>
+              <div class="featured-car-card">
+    
+                <figure class="card-banner">
+                  <img src="./images/car-5.jpg" alt="BMW 4 Series GTI 2021" loading="lazy" width="440"
+                    height="300" class="w-100">
+                </figure>
+    
+                <div class="card-content">
+    
+                  <div class="card-title-wrapper">
+                    <h3 class="h3 card-title">
+                      <a href="#">Mahindra Thar</a>
+                    </h3>
+    
+                    <data class="year" value="2021">2021</data>
+                  </div>
+    
+                  <ul class="card-list">
+    
+                    <li class="card-list-item">
+                      <ion-icon name="people-outline"></ion-icon>
+    
+                      <span class="card-item-text">4 People</span>
+                    </li>
+    
+                    <li class="card-list-item">
+                      <ion-icon name="flash-outline"></ion-icon>
+    
+                      <span class="card-item-text">Gasoline</span>
+                    </li>
+    
+                    <li class="card-list-item">
+                      <ion-icon name="speedometer-outline"></ion-icon>
+    
+                      <span class="card-item-text">7.6km / 1-litre</span>
+                    </li>
+    
+                    <li class="card-list-item">
+                      <ion-icon name="hardware-chip-outline"></ion-icon>
+    
+                      <span class="card-item-text">Automatic</span>
+                    </li>
+    
+                  </ul>
+    
+                  <div class="card-price-wrapper">
+    
+                    <p class="card-price">
+                      <strong>Rs.3000</strong> / day
+                    </p>
+    
+                    <button class="btn fav-btn" aria-label="Add to favourite list">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+    
+                    <button class="btn" onclick="location.href='./form.html'">Rent now</button>
+    
+                  </div>
+    
+                </div>
+    
+              </div>
+            </li>
+    
+            <li>
+              <div class="featured-car-card">
+    
+                <figure class="card-banner">
+                  <img src="./images/car-6.jpeg" alt="BMW 4 Series 2019" loading="lazy" width="440" height="300"
+                    class="w-100">
+                </figure>
+    
+                <div class="card-content">
+    
+                  <div class="card-title-wrapper">
+                    <h3 class="h3 card-title">
+                      <a href="#">Ford Endeavour</a>
+                    </h3>
+    
+                    <data class="year" value="2019">2019</data>
+                  </div>
+    
+                  <ul class="card-list">
+    
+                    <li class="card-list-item">
+                      <ion-icon name="people-outline"></ion-icon>
+    
+                      <span class="card-item-text">4 People</span>
+                    </li>
+    
+                    <li class="card-list-item">
+                      <ion-icon name="flash-outline"></ion-icon>
+    
+                      <span class="card-item-text">Gasoline</span>
+                    </li>
+    
+                    <li class="card-list-item">
+                      <ion-icon name="speedometer-outline"></ion-icon>
+    
+                      <span class="card-item-text">7.2km / 1-litre</span>
+                    </li>
+    
+                    <li class="card-list-item">
+                      <ion-icon name="hardware-chip-outline"></ion-icon>
+    
+                      <span class="card-item-text">Automatic</span>
+                    </li>
+    
+                  </ul>
+    
+                  <div class="card-price-wrapper">
+    
+                    <p class="card-price">
+                      <strong>Rs.4900</strong> / day
+                    </p>
+    
+                    <button class="btn fav-btn" aria-label="Add to favourite list">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+    
+                    <button class="btn" onclick="location.href='./form.html'">Rent now</button>
+    
+                  </div>
+    
+                </div>
+    
+              </div>
+            </li>
+
+            <li>
+                <div class="featured-car-card">
+  
+                  <figure class="card-banner">
+                    <img src="./images/car-7.jpeg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                      class="w-100">
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">MG Hector</a>
+                      </h3>
+  
+                      <data class="year" value="2021">2019</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">7 People</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Hybrid</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">6.1km / 1-litre</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Automatic</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                      <p class="card-price">
+                        <strong>Rs.5000</strong> / day
+                      </p>
+  
+                      <button class="btn fav-btn" aria-label="Add to favourite list">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                      <button class="btn" onclick="location.href='./form.html'">Rent now</button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+
+              <li>
+                <div class="featured-car-card">
+  
+                  <figure class="card-banner">
+                    <img src="./images/car-8.jpeg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                      class="w-100">
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">Kia Seltos</a>
+                      </h3>
+  
+                      <data class="year" value="2021">2019</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">7 People</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Hybrid</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">6.1km / 1-litre</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Automatic</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                      <p class="card-price">
+                        <strong>Rs.5000</strong> / day
+                      </p>
+  
+                      <button class="btn fav-btn" aria-label="Add to favourite list">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                      <button class="btn" onclick="location.href='./form.html'">Rent now</button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+
+              <li>
+                <div class="featured-car-card">
+  
+                  <figure class="card-banner">
+                    <img src="./images/car-9.jpeg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                      class="w-100">
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">Caddilac</a>
+                      </h3>
+  
+                      <data class="year" value="2021">2019</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">7 People</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Hybrid</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">6.1km / 1-litre</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Automatic</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                      <p class="card-price">
+                        <strong>Rs.15000</strong> / day
+                      </p>
+  
+                      <button class="btn fav-btn" aria-label="Add to favourite list">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                      <button class="btn" onclick="location.href='./form.html'">Rent now</button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+
+              <li>
+                <div class="featured-car-card">
+  
+                  <figure class="card-banner">
+                    <img src="./images/car-10.jpeg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                      class="w-100">
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">Toyota Camry</a>
+                      </h3>
+  
+                      <data class="year" value="2021">2019</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">4 People</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Hybrid</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">6.1km / 1-litre</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Automatic</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                      <p class="card-price">
+                        <strong>Rs.5000</strong> / day
+                      </p>
+  
+                      <button class="btn fav-btn" aria-label="Add to favourite list">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                      <button class="btn" onclick="location.href='./form.html'">Rent now</button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+
+              <li>
+                <div class="featured-car-card">
+  
+                  <figure class="card-banner">
+                    <img src="./images/car-11.jpeg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                      class="w-100">
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">Volvo XC90</a>
+                      </h3>
+  
+                      <data class="year" value="2021">2019</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">7 People</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Hybrid</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">6.1km / 1-litre</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Automatic</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                      <p class="card-price">
+                        <strong>Rs.20000</strong> / day
+                      </p>
+  
+                      <button class="btn fav-btn" aria-label="Add to favourite list">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                      <button class="btn" onclick="location.href='./form.html'">Rent now</button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+
+              <li>
+                <div class="featured-car-card">
+  
+                  <figure class="card-banner">
+                    <img src="./images/car-12.jpeg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                      class="w-100">
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">Mini Cooper</a>
+                      </h3>
+  
+                      <data class="year" value="2021">2019</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">2 People</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Hybrid</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">6.1km / 1-litre</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Automatic</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                      <p class="card-price">
+                        <strong>Rs.15000</strong> / day
+                      </p>
+  
+                      <button class="btn fav-btn" aria-label="Add to favourite list">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                      <button class="btn" onclick="location.href='./form.html'">Rent now</button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+
+              <li>
+                <div class="featured-car-card">
+  
+                  <figure class="card-banner">
+                    <img src="./images/car-13.jpeg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                      class="w-100">
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">Mustang GT</a>
+                      </h3>
+  
+                      <data class="year" value="2021">2019</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">4 People</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Hybrid</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">6.1km / 1-litre</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Automatic</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                      <p class="card-price">
+                        <strong>Rs.15000</strong> / day
+                      </p>
+  
+                      <button class="btn fav-btn" aria-label="Add to favourite list">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                      <button class="btn" onclick="location.href='./form.html'">Rent now</button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+
+              <li>
+                <div class="featured-car-card">
+  
+                  <figure class="card-banner">
+                    <img src="./images/car-14.jpeg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                      class="w-100">
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">Tata Harrier</a>
+                      </h3>
+  
+                      <data class="year" value="2021">2019</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">7 People</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Hybrid</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">6.1km / 1-litre</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Automatic</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                      <p class="card-price">
+                        <strong>Rs.5000</strong> / day
+                      </p>
+  
+                      <button class="btn fav-btn" aria-label="Add to favourite list">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                      <button class="btn" onclick="location.href='./form.html'">Rent now</button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+
+              <li>
+                <div class="featured-car-card">
+  
+                  <figure class="card-banner">
+                    <img src="./images/car-15.jpeg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                      class="w-100">
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">Innovo Crysta</a>
+                      </h3>
+  
+                      <data class="year" value="2021">2019</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">7 People</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Hybrid</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">6.1km / 1-litre</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Automatic</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                      <p class="card-price">
+                        <strong>Rs.5000</strong> / day
+                      </p>
+  
+                      <button class="btn fav-btn" aria-label="Add to favourite list">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                      <button class="btn" onclick="location.href='./form.html'">Rent now</button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+
+              <li>
+                <div class="featured-car-card">
+  
+                  <figure class="card-banner">
+                    <img src="./images/car-16.jpeg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                      class="w-100">
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">Mercedes Mayback</a>
+                      </h3>
+  
+                      <data class="year" value="2021">2019</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">4 People</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Hybrid</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">6.1km / 1-litre</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Automatic</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                      <p class="card-price">
+                        <strong>Rs.50000</strong> / day
+                      </p>
+  
+                      <button class="btn fav-btn" aria-label="Add to favourite list">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                      <button class="btn" onclick="location.href='./form.html'">Rent now</button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+
+              <li>
+                <div class="featured-car-card">
+  
+                  <figure class="card-banner">
+                    <img src="./images/car-17.jpeg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                      class="w-100">
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#"> Toyota Fortuner Legender</a>
+                      </h3>
+  
+                      <data class="year" value="2021">2019</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">7 People</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Hybrid</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">6.1km / 1-litre</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Automatic</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                      <p class="card-price">
+                        <strong>Rs.10000</strong> / day
+                      </p>
+  
+                      <button class="btn fav-btn" aria-label="Add to favourite list">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                      <button class="btn" onclick="location.href='./form.html'">Rent now</button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+
+              <li>
+                <div class="featured-car-card">
+  
+                  <figure class="card-banner">
+                    <img src="./images/car-18.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                      class="w-100">
+
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">Lamborghini Urus</a>
+                      </h3>
+  
+                      <data class="year" value="2021">2019</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">4 People</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Hybrid</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">6.1km / 1-litre</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Automatic</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                      <p class="card-price">
+                        <strong>Rs.10000</strong> / day
+                      </p>
+  
+                      <button class="btn fav-btn" aria-label="Add to favourite list">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                      <button class="btn" onclick="location.href='./form.html'">Rent now</button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+
+              <li>
+                <div class="featured-car-card">
+  
+                  <figure class="card-banner">
+                    <img src="./images/car-19.jpeg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                      class="w-100">
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">Porsche GT3 RS</a>
+                      </h3>
+  
+                      <data class="year" value="2021">2019</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">2 People</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Hybrid</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">6.1km / 1-litre</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Automatic</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                      <p class="card-price">
+                        <strong>Rs.15000</strong> / day
+                      </p>
+  
+                      <button class="btn fav-btn" aria-label="Add to favourite list">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                      <button class="btn" onclick="location.href='./form.html'">Rent now</button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+
+              <li>
+                <div class="featured-car-card">
+  
+                  <figure class="card-banner">
+                    <img src="./images/car-20.jpeg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                      class="w-100">
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">Hyundai Creta</a>
+                      </h3>
+  
+                      <data class="year" value="2021">2019</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">6 People</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Hybrid</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">6.1km / 1-litre</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Automatic</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                      <p class="card-price">
+                        <strong>Rs.3000</strong> / day
+                      </p>
+  
+                      <button class="btn fav-btn" aria-label="Add to favourite list">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                      <button class="btn" onclick="location.href='./form.html'">Rent now</button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+
+              <li>
+                <div class="featured-car-card">
+  
+                  <figure class="card-banner">
+                    <img src="./images/car-21.jpeg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                      class="w-100">
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">Tata Nexon</a>
+                      </h3>
+  
+                      <data class="year" value="2021">2023</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">4 People</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Hybrid</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">6.1km / 1-litre</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Automatic</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                      <p class="card-price">
+                        <strong>Rs.2000</strong> / day
+                      </p>
+  
+                      <button class="btn fav-btn" aria-label="Add to favourite list">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                      <button class="btn" onclick="location.href='./form.html'">Rent now</button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+    
+          </ul>
+    
+        </div>
+      </section>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+</body>
+</html>

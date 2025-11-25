@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ridex - Check Out</title>
+    <link rel="icon" href="/img/faviconmain.ico" />
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./css/form.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <form id="checkoutForm">
+            <div class="row">
+                <div class="column">
+                    <h3 class="title">Billing Address</h3>
+                    <div class="input-box">
+                        <span>Full Name:</span>
+                        <input id="fullname" type="text" placeholder="Your name">
+                    </div>
+                    <div class="input-box">
+                        <span>Email:</span>
+                        <input id="email" type="email" placeholder="example@example.com">
+                    </div>
+                    <div class="input-box">
+                        <span>Address:</span>
+                        <input id="address" type="text" placeholder="Area - Street - Locality">
+                    </div>
+                    <div class="input-box">
+                        <span>City:</span>
+                        <input id="city" type="text" placeholder="Nashik">
+                    </div>
+                    <div class="flex">
+                        <div class="input-box">
+                            <span>Pick-up Date:</span>
+                            <input id="pickupDate" type="date">
+                        </div>
+                        <div class="input-box">
+                            <span>Drop Date:</span>
+                            <input id="dropDate" type="date">
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <h3 class="title">Payment</h3>
+                    <div class="input-box">
+                        <span>Cards Accepted:</span>
+                        <img src="./images/imgcards.png" alt="">
+                    </div>
+                    <div class="input-box">
+                        <span>Name on Card:</span>
+                        <input id="cardname" type="text" placeholder="Mr. Example">
+                    </div>
+                    <div class="input-box">
+                        <span>Card Number:</span>
+                        <input id="cardnumber" type="text" placeholder="xxxx-xxxx-xxxx">
+                    </div>
+                    <div class="input-box">
+                        <span>Exp. year:</span>
+                        <input id="expyear" type="text" placeholder="xxxx">
+                    </div>
+                    <div class="input-box">
+                        <label for="cars">Choose a car:</label>
+                        <select id="carSelection" name="cars">
+                            <option value="Fortuner">Fortuner</option>
+                            <option value="Verna">Verna</option>
+                            <option value="Audi A4">Audi A4</option>
+                              <option value="Mercedes Benz">Mercedes Benz</option>
+                              <option value="Mahindra Thar">Mahindra Thar</option>
+                              <option value="Endovour">Endovour</option>
+                              <option value="MG Hector">MG Hector</option>
+                              <option value="Kia Seltos">Kia Seltos</option>
+                              <option value="Cadilliac">Cadilliac</option>
+                              <option value="Toyota Camry">Toyota Camry</option>
+                              <option value="Volvo XC90">Volvo XC90</option>
+                              <option value="Mini Copper">Mini Copper</option>
+                              <option value="Mustang GT">Mustang GT</option>
+                              <option value="Tata Harrier">Tata Harrier</option>
+                              <option value="Innova Crysta">Innova Crysta</option>
+                              <option value="Mercedes Maybach">Mercedes Maybach</option>
+                              <option value="Lamborgini Urus">Lamborgini Urus</option>
+                              <option value="Porche GT3 RS">Porche GT3 RS</option>
+                              <option value="Hundai Creta">Hundai Creta</option>
+                              <option value="Tata Nexon">Tata Nexon</option>
+                            <!-- Add other car options here -->
+                        </select>
+                    </div>
+                    <div class="input-box">
+                        <span>CVV:</span>
+                        <input id="cvv" type="text" placeholder="xxx">
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="btn" id="save">Submit</button>
+            <button class="btn2"><a href="./login.html">Back</a></button>
+            
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./js/util.js"></script>
+    <script src="./js/form.js"></script>
+</body>
+</html>
